@@ -34,8 +34,8 @@ const features = [
   },
   {
     icon: "05",
-    title: "NFT会员权益",
-    description: "持有nobodysmsnft享受充值折扣，最高可享5折优惠。仅300个NFT名额。",
+    title: "永久会员",
+    description: "仅需¥99一次性购买永久会员，享受充值永久6折优惠，终身有效无需续费。",
     span: "col-span-2 row-span-1",
   },
   {
