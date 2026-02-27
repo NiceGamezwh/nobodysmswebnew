@@ -75,7 +75,7 @@ export function HeroSection() {
 
         <p className="mt-12 max-w-md font-mono text-sm text-muted-foreground leading-relaxed">
           即时接收短信验证码，虚拟号码覆盖全平台。无需个人信息，仅需 ¥0.36/条。
-          NFT持有者享专属折扣，最高5折优惠。
+          永久会员享6折优惠，仅需¥99一次性购买。
         </p>
 
         <div className="mt-16 flex items-center gap-8 flex-wrap">
@@ -97,20 +97,12 @@ export function HeroSection() {
             使用教程
           </a>
           <a
-            href="https://nobodysmsnft.netlify.app/"
+            href="https://ur.alipay.com/_6zXEVOzmKeWhLv9Z8QRKRU"
             target="_blank"
             rel="noopener noreferrer"
             className="font-mono text-xs uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors duration-200 border-b border-muted-foreground/30 hover:border-primary pb-1"
           >
-            NFT官网
-          </a>
-          <a
-            href="https://opensea.io/collection/nobodysms"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-mono text-xs uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors duration-200 border-b border-muted-foreground/30 hover:border-primary pb-1"
-          >
-            OpenSea
+            开通会员
           </a>
         </div>
 
@@ -121,12 +113,12 @@ export function HeroSection() {
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">每条短信</p>
           </div>
           <div>
-            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">300</span>
-            <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">NFT总量</p>
+            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">¥99</span>
+            <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">永久会员</p>
           </div>
           <div>
-            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">50%</span>
-            <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">最高折扣</p>
+            <span className="font-[var(--font-bebas)] text-4xl md:text-5xl text-primary">60%</span>
+            <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-1">会员折扣</p>
           </div>
         </div>
       </div>
