@@ -28,7 +28,7 @@ export function HowItWorksSection() {
         { text: "充值", highlight: false },
         { text: "支付", highlight: true },
       ],
-      description: "支持支付宝、微信支付，仅需 ¥0.36/条。NFT会员享专属折扣。",
+      description: "支持支付宝、微信支付，仅需 ¥0.36/条。永久会员享6折优惠。",
       align: "right",
     },
     {
