@@ -10,7 +10,8 @@ gsap.registerPlugin(ScrollTrigger)
 const membershipFeatures = [
   "充值享永久6折优惠",
   "一次购买，终身有效",
-  "专属会员QQ群",
+  "邀请返利: 下级消费5%返还",
+  "邀请奖励: 双方各得¥3",
   "优先客服响应",
   "新功能优先体验",
   "专属定制服务",
@@ -120,6 +121,25 @@ export function PricingSection() {
           <p className="mt-6 font-mono text-[10px] text-muted-foreground leading-relaxed">
             充值时请备注您的平台账号和联系QQ，以便我们为您开通会员权益。
           </p>
+
+          {/* Invite rules */}
+          <div className="mt-6 pt-6 border-t border-primary/20">
+            <p className="font-mono text-[10px] uppercase tracking-widest text-primary mb-3">邀请机制</p>
+            <ul className="space-y-2">
+              <li className="font-mono text-[10px] text-muted-foreground leading-relaxed flex items-start gap-2">
+                <span className="text-primary mt-0.5 flex-shrink-0">{'>'}</span>
+                <span>邀请新用户完成首次充值后，您和被邀请用户账户各得 <span className="text-primary">¥3</span> 奖励</span>
+              </li>
+              <li className="font-mono text-[10px] text-muted-foreground leading-relaxed flex items-start gap-2">
+                <span className="text-primary mt-0.5 flex-shrink-0">{'>'}</span>
+                <span>下级用户每次消费金额的 <span className="text-primary">5%</span> 将自动返还至您的账户</span>
+              </li>
+              <li className="font-mono text-[10px] text-muted-foreground leading-relaxed flex items-start gap-2">
+                <span className="text-primary mt-0.5 flex-shrink-0">{'!'}</span>
+                <span>邀请奖励需经管理员审核后发放，严禁冒充新用户等违规行为，违规将不予通过</span>
+              </li>
+            </ul>
+          </div>
 
           {/* Corner decorations */}
           <div className="absolute top-0 right-0 w-6 h-6">
